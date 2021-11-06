@@ -1,0 +1,105 @@
+Project-based Course Overview
+Welcome!
+Welcome to TensorFlow Serving with Docker for Model Deployment. This is a project-based course which should take approximately 1.5 hours to complete. Before diving into the project, please take a look at the course objectives and structure:
+
+Course Objectives
+In this course, we are going to focus on three learning objectives:
+
+Train and export TensorFlow Models for text classification  
+
+Serve and deploy models with TensorFlow Serving and Docker  
+
+Perform model inference with gRPC and REST endpoints  
+
+This is a hands-on, guided project on deploying deep learning models using TensorFlow Serving with Docker. In this 1.5 hour long project, you will train and export TensorFlow models for text classification, learn how to deploy models with TF Serving and Docker in 90 seconds, and build simple gRPC and REST-based clients in Python for model inference.  
+
+With the worldwide adoption of machine learning and AI by organizations, it is becoming increasingly important for data scientists and machine learning engineers to know how to deploy models to production. While DevOps groups are fantastic at scaling applications, they are not the experts in ML ecosystems such as TensorFlow and PyTorch. This guided project gives learners a solid, real-world foundation of pushing your TensorFlow models from development to production in no time!  Prerequisites: In order to successfully complete this project, you should be familiar with Python, and have prior experience with building models with Keras or TensorFlow.
+
+The slides used in Task 1 of this project can be found here.
+
+Note: This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.
+
+Course Structure
+This course is divided into 3 parts:
+
+Course Overview: This introductory reading material.
+
+TensorFlow Serving with Docker for Model Deployment: This is the hands on project that we will work on in Rhyme.
+
+Graded Quiz: This is the final assignment that you need to pass in order to finish the course successfully.
+
+Project Structure
+The hands on project on TensorFlow Serving with Docker for Model Deployment is divided into following tasks:
+
+Task 1:  Introduction and Demo Deployment
+Task 2: Load and Pre-process the Amazon Fine Foods Review Data
+Task 3: Build Text Classification Model using Keras and TensorFlow Hub
+Task 4: Define Training Procedure
+Task 5: Train and Export Model as Protobuf
+Task 6: Test Model
+Task 7: TensorFlow Serving with Docker
+Task 8: Setup a REST Client to Perform Model Predictions
+Task 9: Setup a gRPC Client to Perform Model Predictions
+Task 10: Versioning with TensorFlow Serving
+Note: Upon completing the project, you can download all the code and data used in this project from the Resources section. The code can also be found at the following GitHub repository.
+
+https://github.com/snehankekre/Deploy-Deep-Learning-Models-TF-Serving-Docker
+
+
+
+Chapter 2 -
+
+
+TensorFlow Serving with Docker for Model Deployment
+Now, you will train and export TensorFlow models for text classification, learn how to deploy models with TF Serving and Docker in 90 seconds, and build simple gRPC and REST-based clients in Python for model inference.
+
+In order to successfully complete this project, you should be familiar with Python, and have prior experience with building models with Keras or TensorFlow.
+
+We will not be exploring how any particular model works nor dive into the math behind them. Instead, we assume you have this foundational knowledge and want to learn to deploy TensorFlow models in production.
+
+We will accomplish it by completing the following tasks in the project:
+
+Task 1:  Introduction and Demo Deployment
+
+Task 2: Load and Preprocess the Amazon Fine Foods Review Data
+
+Task 3: Build Text Classification Model using Keras and TensorFlow Hub
+
+Task 4: Define Training Procedure
+
+Task 5: Train and Export Model as Protobuf
+
+Task 6: Test Model
+
+Task 7: TensorFlow Serving with Docker
+
+Task 8: Setup a REST Client to Perform Model Predictions
+
+Task 9: Setup a gRPC Client to Perform Model Predictions
+
+Task 10: Versioning with TensorFlow Serving
+
+While you are watching me work on each step, you will get a cloud desktop with all the required software pre-installed. This will allow you to follow along the instructions to complete the above mentioned tasks. After all, we learn best with active, hands-on learning.
+
+Ready to get started? Click on the button below to launch the project on Rhyme.
+
+
+1. Introduction and Demo Deployment
+    
+    with flask (which is a python package) works with http responses. returns predictions in json format and sent it. it is not able to optimize the operating system.
+    Why Flask is insufficient
+        ● Lack of consistent APIs
+        ● Lack of consistent payloads
+        ● Lack of model versioning
+        ● Lack of mini-batching support
+        ● Inefficient for large models
+
+    TensorFlow Serving
+        Production ready Model Serving
+        ● Part of the TensorFlow Extended (TFX) Ecosystem
+        ● Used internally at Google
+        ● Highly scalable model serving solution
+        ● Works well for large models up to 2GB
+
+    
+    
